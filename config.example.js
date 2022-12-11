@@ -25,7 +25,7 @@ module.exports = {
         memory: 2048 /* MegaBytes */,
         disk: 10240 /* MegaBytes */,
         swap: -1 /* -1 | 0 */,
-        io: 5 /* 1 - 10 */,
+        io: 500 /* 10 - 1000 */,
       },
     },
     default_resources: {
@@ -33,7 +33,7 @@ module.exports = {
       memory: 0 /* MegaBytes */,
       disk: 0 /* MegaBytes */,
       swap: -1 /* -1 | 0 */,
-      io: 10 /* 1 - 10 */,
+      io: 1000 /* 10 - 1000 */,
     },
   },
   embed: {
