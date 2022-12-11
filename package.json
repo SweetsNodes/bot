@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "@sweetsnodes/database": "^1.0.4",
+    "@sweetsnodes/logger": "^1.0.3",
+    "axios": "^1.2.1",
+    "discord.js": "^12.5.3",
+    "fs": "0.0.1-security",
+    "humanize-duration": "^3.27.3",
+    "moment": "^2.29.4",
+    "moment-duration-format": "^2.3.2",
+    "node-fetch": "^3.3.0",
+    "nodemon": "^2.0.20",
+    "validator": "^13.7.0"
+  },
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon --ignore \"*.json\""
+  }
+}
