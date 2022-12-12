@@ -29,7 +29,7 @@ module.exports = async function (client, message, args) {
   });
 
   let serverName =
-    message.content.split(" ").slice(4).join(" ") || "change me!";
+    message.content.split(" ").slice(3).join(" ") || "change me!";
   let console = client.db.get(message.author.id);
   if (!console) {
     message.channel.send(
